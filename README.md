@@ -1,10 +1,3 @@
----
-title: MedBot
-sdk: docker
-app_port: 8080
----
-
-
 # MedBot
 
 MedBot is an AI-powered medical question-answering assistant built using **Flask** for the interface and a **fine-tuned TinyLLaMA** model for inference.
@@ -52,6 +45,7 @@ It allows you to:
 
 ## 4. Preview
 ![MedBot in Action](assets/preview.png)
+
 
 
 
