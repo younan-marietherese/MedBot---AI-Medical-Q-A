@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MedBot</title>
+</head>
+<body>
+    <h1>MedBot — Medical Q&A</h1>
+    <p><em>Educational use only. Not medical advice.</em></p>
+    <form method="POST">
+        <input type="text" name="question" placeholder="Enter your question" style="width:420px">
+        <button type="submit">Ask</button>
+    </form>
+    {% if answer %}
+        <h3>Answer</h3>
+        <pre style="white-space:pre-wrap">{{ answer }}</pre>
+    {% endif %}
+</body>
+</html>

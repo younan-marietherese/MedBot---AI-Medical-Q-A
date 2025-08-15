@@ -1,0 +1,14 @@
+flask==3.0.3
+gunicorn==21.2.0
+transformers==4.43.3
+tokenizers==0.19.1
+accelerate==0.33.0
+peft==0.12.0
+sentencepiece==0.2.0
+safetensors==0.4.4
+protobuf<5
+numpy<2
+huggingface_hub>=0.23.2
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1+cu121
