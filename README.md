@@ -51,7 +51,7 @@ It allows you to:
 ---
 
 ## 4. Preview
-![MedBot in Action](assets/preview1.png)
+![MedBot in Action](assets/preview.png)
 
-![MedBot in Action](assets/preview2.png)
+
 
